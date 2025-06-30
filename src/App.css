@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C1917;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main  h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pad-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    margin-top: 150px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.1;
+}
+
+button.on {
+    opacity: 1;
+}
+
+.button-div{
+    display: flex;
+    gap:20px;
+}
+
+.turnOff{
+    margin-top: 20px;
+    background-color: rgb(217, 80, 80);
+    opacity: 1;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.turnOff:hover{
+    background-color: rgb(253, 38, 38);
+}
