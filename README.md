@@ -7,15 +7,19 @@ The React app consists of eight div elements arranged in a grid. Each div has it
 # #React  #React State Management
 
 The Initial pads withe default boolean values from the array.
+
 ![](ss1.png)
 
 Toggling ON all div's boolean value to true
+
 ![](ss3.png)
 
 Toggling OFF all div's boolean value to false
+
 ![](ss2.png)
 
 Toggling Indivial div's boolean value to either false or true
+
 ![](ss4.png)
 
 
