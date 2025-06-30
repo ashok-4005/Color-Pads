@@ -1,12 +1,10 @@
-# React + Vite
+# COLOR PADS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Prjoect has been built to explore the basic state management techniques like how individual components have their own states and also share their states with the parent component
 
-Currently, two official plugins are available:
+The React app has eight div's arranged as grids where the individual state of the grids can be changed and all the div's state valucan be changed at a time using a button, initially the div's comes with a
+boolean value form an external array each div with an unique id and the boolean value can be switched using useState hook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# #React # #React State Management
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
